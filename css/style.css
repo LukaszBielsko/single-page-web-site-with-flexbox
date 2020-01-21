@@ -28,6 +28,18 @@ p {
   background-color: limegreen;
 }
 
+.medium-heading {
+  font-size: 2.7rem;
+  text-align: center;
+  margin: 20px 0;
+  letter-spacing: 3px;
+}
+
+li {
+  list-style: none;
+}
+
+
 
 /**** NAV BAR ****/
 
@@ -50,7 +62,6 @@ p {
 
 .nav-wrap ul {
   color: white;
-  list-style: none;
   display: flex;
   align-items: center;
 }
@@ -130,12 +141,6 @@ p {
   text-align: center;
 }
 
-#what .medium-heading {
-  font-size: 2.7rem;
-  text-align: center;
-  margin: 20px 0;
-}
-
 #what .key-points {
   display: flex;
   margin: 30px;
@@ -151,15 +156,48 @@ p {
 #what i {
   padding: 20px;
   border-radius: 50%;
-  /* text-align: center; */
+  text-align: left;
   margin: auto;
 }
 
 #what .small-heading {
-  text-align: center;
   margin: 10px 0;
 }
 
+/**** WHO ****/
+
+#who {
+  display: flex;
+  background-color:#333;
+  color: white;
+  text-align: center;
+  height: 535px;
+}
+
+#who .who-items {
+  padding: 50px 0 ;
+}
+
+#who div {
+  width: 50%;
+}
+
+#who img {
+  width: 100%;
+}
+
+#who p, h3 {
+  letter-spacing: 2px;
+}
+
+#who h3 {
+  font-size: 2rem;
+}
+
+#who .staff {
+  margin-top: 40px;
+  width: 100%;
+}
 
 
 
