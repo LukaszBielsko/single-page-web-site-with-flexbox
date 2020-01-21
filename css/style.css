@@ -1,3 +1,5 @@
+/**** ROOT CSS ****/
+
 * {
   margin: 0;
   padding: 0;
@@ -18,10 +20,15 @@ p {
   color: limegreen
 }
 
+
+/**** NAV BAR ****/
+
 #nav-bar {
   position: sticky;
+  top: 0;
   background: #333;
   color: white;
+  z-index: 1; 
 }
 
 .nav-wrap {
@@ -29,8 +36,8 @@ p {
   max-width: 1000px;
   display: flex;
   justify-content: space-between;
-  z-index: 1;
-  padding: 1rem;
+  padding: 0.5rem;
+  align-items: center;
 }
 
 .nav-wrap ul {
@@ -48,3 +55,65 @@ p {
   background-color: limegreen;
   border-radius: 10px;
 }
+
+
+
+/**** SHOWCASE ****/
+
+#showcase {
+  background-image: url('/img/nigth-city.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#showcase .large-heading {
+  color: lime;
+  font-size: 4rem;
+  letter-spacing: 3px;
+  position: relative;
+  bottom: 110px;
+}
+
+#showcase .lead-text {
+  color: white;
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  letter-spacing: 2px;
+}
+
+#showcase .btn {
+  display: inline-block;
+  padding: 20px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  background-color: limegreen;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;;
+}
+
+#showcase .btn:hover {
+  background-color: rgb(0, 255, 0);
+}
+
+
+
+
+
