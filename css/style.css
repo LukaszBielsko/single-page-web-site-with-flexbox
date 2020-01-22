@@ -120,17 +120,17 @@ li {
 
 #showcase .btn {
   display: inline-block;
-  padding: 20px;
+  padding: 10px 20px;
   letter-spacing: 10px;
   text-transform: uppercase;
-  background-color: limegreen;
+  background-color: lime;
   color: black;
   font-weight: bold;
   border-radius: 10px;;
 }
 
 #showcase .btn:hover {
-  background-color: rgb(0, 255, 0);
+  background-color: limegreen;
 }
 
 
@@ -198,6 +198,68 @@ li {
   margin-top: 40px;
   width: 100%;
 }
+
+
+
+/* CONTACT */
+
+#contact {
+  display: flex;
+  color: whitesmoke;
+}
+
+#contact .contact-form{
+  background-color: limegreen;
+  width: 40%;
+  padding: 10px;
+ }
+
+ .contact-form h3 {
+   margin-top: 10px;
+   text-align: center;
+   font-size: 2.2rem;
+ }
+
+ .contact-form form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 15px;
+ }
+
+ .contact-form label {
+   margin-top: 10px;
+   margin-bottom: 5px;
+   text-align: center;
+ }
+
+ .contact-form input {
+   width: 50%;
+   border-radius: 3px;
+   padding: 5px;
+ }
+
+ .contact-form textarea {
+   width: 50%;
+   height: 70px;
+ }
+
+ #contact .map {
+   width: 60%;
+   background-color: darkcyan;
+ }
+
+ #contact button {
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+   letter-spacing: 4px;
+   margin: 10px 0;
+   width: 50%;
+   padding: 10px;
+   border-radius: 5px;
+   background-color: #333;
+ }
 
 
 
