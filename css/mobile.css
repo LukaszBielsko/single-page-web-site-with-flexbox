@@ -1,0 +1,9 @@
+#what .key-points {
+  flex-direction: column;
+  align-items: center;
+}
+
+#what .point {
+  width: 55%;
+  margin-top: 30px;
+}
