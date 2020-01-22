@@ -105,6 +105,18 @@
   <script src="/index.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdsrKcMlPVqnk5Jaf6Z8OutKtZF4Lq9qI&callback=initMap"
     async defer></script>
+
+  <script>
+    var map;
+    function initMap() {
+      var bb = { lat: 49.8224, lng: 19.0584 };
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: bb,
+        zoom: 8
+      });
+      var marker = new google.maps.Marker({ position: bb, map });
+    }
+  </script>
 </body>
 
 </html>
