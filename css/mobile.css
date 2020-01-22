@@ -1,0 +1,53 @@
+
+#what .key-points {
+  flex-direction: column;
+  align-items: center;
+}
+
+#what .point {
+  width: 55%;
+  margin-top: 30px;
+}
+
+@media (max-width: 560px) {
+  #nav-bar .nav-wrap {
+    flex-direction: column;
+  }
+
+  .nav-wrap ul {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.7rem;
+  margin-top: 10px;
+}
+
+ #nav-bar h2 {
+   font-size: 2rem;
+    margin-top: 10px
+ }
+}
+
+
+/* CONTACT */
+
+#contact { 
+  flex-direction: column-reverse;
+}
+
+ #contact .map {
+   width: 100%;
+   height: 250px;
+   background-color: darkcyan;
+ }
+
+
+#contact .contact-form{
+  width: 100%;
+
+}
+
+#footer {
+  text-align: center;
+}
