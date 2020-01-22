@@ -80,7 +80,7 @@ li {
 /**** SHOWCASE ****/
 
 #showcase {
-  background-image: url('/img/nigth-city.jpg');
+  background-image: url('https://images.unsplash.com/photo-1462007895615-c8c073bebcd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
