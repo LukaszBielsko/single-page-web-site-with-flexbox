@@ -26,5 +26,23 @@
    font-size: 2rem;
     margin-top: 10px
  }
+}
+
+
+/* CONTACT */
+
+#contact { 
+  flex-direction: column-reverse;
+}
+
+ #contact .map {
+   width: 100%;
+   height: 250px;
+   background-color: darkcyan;
+ }
+
+
+#contact .contact-form{
+  width: 100%;
 
 }
