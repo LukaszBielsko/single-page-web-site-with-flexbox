@@ -204,6 +204,7 @@ li {
 /* CONTACT */
 
 #contact {
+  margin-top: -1px;
   display: flex;
   color: whitesmoke;
 }
